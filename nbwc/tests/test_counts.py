@@ -1,13 +1,11 @@
 """ Test counts
 """
 
-import sys
 from pathlib import Path
 
-HERE = Path(__file__).parent
-sys.path.append(str( HERE / '..'))
-
 import nbwc
+
+HERE = Path(__file__).parent
 
 
 def test_counts():
